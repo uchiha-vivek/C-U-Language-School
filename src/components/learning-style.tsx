@@ -2,6 +2,7 @@ import { FC } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "./ui/button";
 import study from '../assets/study-1.jpeg'
+import Image from "next/image";
 const LearningStyle: FC = () => {
   return (
     <div className="bg-[#F2F2F2] py-12">
@@ -12,7 +13,7 @@ const LearningStyle: FC = () => {
           <div className="max-w-sm">
             <Card className="p-6">
               <div className="flex justify-center mb-4">
-                <img
+                <Image
                   src={study.src} // Replace with the actual image path
                   alt="Card Image 1"
                   className="w-full h-32 object-cover rounded-t-md"
@@ -30,7 +31,7 @@ const LearningStyle: FC = () => {
           <div className="max-w-sm">
             <Card className="p-6">
               <div className="flex justify-center mb-4">
-                <img
+                <Image
                   src={study.src} // Replace with the actual image path
                   alt="Card Image 2"
                   className="w-full h-32 object-cover rounded-t-md"
@@ -48,7 +49,7 @@ const LearningStyle: FC = () => {
           <div className="max-w-sm">
             <Card className="p-6">
               <div className="flex justify-center mb-4">
-                <img
+                <Image
                   src={study.src} // Replace with the actual image path
                   alt="Card Image 3"
                   className="w-full h-32 object-cover rounded-t-md"

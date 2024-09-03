@@ -24,7 +24,7 @@ const HeroSection: FC = () => {
       {/* Personalized Learning Section */}
       <div className="flex flex-col items-center justify-center bg-pink-500 h-12 text-black text-center py-10 px-4">
         <p className="text-xl md:text-2xl font-semibold">
-          With our personalized learning program, there's always a class for you!
+          With our personalized learning program  theres always a class for you!
         </p>
       </div>
     </>

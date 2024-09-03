@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FC } from "react";
 
 
@@ -12,7 +13,7 @@ const Certification: FC = () => {
 
                     <div className="flex justify-center mb-4">
                         <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-gray-300">
-                            <img
+                            <Image
                                 src="https://via.placeholder.com/150"
                                 alt="Sample Image"
                                 className="w-full h-full object-cover"
@@ -29,7 +30,7 @@ const Certification: FC = () => {
 
 <div className="flex justify-center mb-4">
     <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-gray-300">
-        <img
+        <Image
             src="https://via.placeholder.com/150"
             alt="Sample Image"
             className="w-full h-full object-cover"
@@ -46,7 +47,7 @@ const Certification: FC = () => {
 
 <div className="flex justify-center mb-4">
     <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-gray-300">
-        <img
+        <Image
             src="https://via.placeholder.com/150"
             alt="Sample Image"
             className="w-full h-full object-cover"
@@ -70,7 +71,7 @@ const Certification: FC = () => {
                 <div className="flex justify-center space-x-6">
                     {/* Rounded Image Section */}
                     <div className="w-25 h-24 rounded-full overflow-hidden border-4 border-gray-300">
-                        <img
+                        <Image
                             src="https://via.placeholder.com/150"
                             alt="sample image"
                             className="w-full h-full object-cover"
@@ -79,7 +80,7 @@ const Certification: FC = () => {
 
                     {/* Additional Rounded Image Sections */}
                     <div className="w-25 h-24 rounded-full overflow-hidden border-4 border-gray-300">
-                        <img
+                        <Image
                             src="https://via.placeholder.com/150"
                             alt="sample image"
                             className="w-full h-full object-cover"
@@ -87,28 +88,28 @@ const Certification: FC = () => {
                     </div>
 
                     <div className="w-25 h-24 rounded-full overflow-hidden border-4 border-gray-300">
-                        <img
+                        <Image
                             src="https://via.placeholder.com/150"
                             alt="sample image"
                             className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-25 h-24 rounded-full overflow-hidden border-4 border-gray-300">
-                        <img
+                        <Image
                             src="https://via.placeholder.com/150"
                             alt="sample image"
                             className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-25 h-24 rounded-full overflow-hidden border-4 border-gray-300">
-                        <img
+                        <Image
                             src="https://via.placeholder.com/150"
                             alt="sample image"
                             className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="w-25 h-24 rounded-full overflow-hidden border-4 border-gray-300">
-                        <img
+                        <Image
                             src="https://via.placeholder.com/150"
                             alt="sample image"
                             className="w-full h-full object-cover"
